@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Journal</title>
+    <style>
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom right, #323232, #161616);
+      color: #333;
+      
+    }
+    header {
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    img{
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      background-color: #252525;
+    }
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .countries {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .country {
+      background: rgb(59, 59, 59);
+      border-radius: 20px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      height: 600px;
+      transition: 0.3s;
+      overflow: hidden;
+    }
+    .country:hover {
+      transform: scale(1.05);
+    }
+    .country img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .country h3 {
+      text-align: center;
+      padding: 15px;
+      margin: 0;
+      color: #fcfdff;
+    }
+    </style>
+</head>
+<body>
+    <body>
+  <img src="pexels-chiecharon-913215.jpg" alt="Malaysia">
+  <header>
+    <h1>My Travel Journal</h1>
+    <p>My jounrey around Asia</p>
+  </header>
+
+  <section class="countries">
+    <a href="korea.html" class="country">
+      <img src="korea.jpeg" alt="Korea">
+      <h3>Korea</h3>
+    </a>
+    <a href="china.html" class="country">
+      <img src="china.jpeg" alt="China">
+      <h3>China</h3>
+    </a>
+    <a href="japan.html" class="country">
+      <img src="japan.jpg" alt="Japan">
+      <h3>Japan</h3>
+    </a>
+    <a href="singapore.html" class="country">
+      <img src="singapore.jpg" alt="Singapore">
+      <h3>Singapore</h3>
+    <a href="malaysia.html" class="country">
+      <img src="malay.jpg" alt="Malaysia">
+      <h3>Malaysia</h3>
+    </a>
+  </section>
+</body>
+</html>
